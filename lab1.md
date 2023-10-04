@@ -1,8 +1,6 @@
 ```
-{
 [user@sahara ~/lecture1/messages]$ cd
 [user@sahara ~]$
-}
 ```
 - It was working in /lecture1/messages directory before the command was written and after executing the code, it moved to /home directory.
 - The cd command without arguments puts the user in the home directory so it moves me to /home from /lecture1/messages directory.
