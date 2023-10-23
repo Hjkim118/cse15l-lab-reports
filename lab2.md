@@ -42,7 +42,7 @@ class StringServer {
 }
 ```
 
-![Image](imageName.png)
+![Image](lab2_1.png)
 1. Methods Called: A GET request is made to /add-message?s=Hello.
    
 2. Relevant Arguments: The request URL contains the query parameter s=Hello.
@@ -52,7 +52,7 @@ array messages is initially an empty array.
 num is initially 1. This is changed by num++ in the file.
 Change in Relevant Fields: After this specific request, messages contain the string "1. Hello\n" and the num is incremented to 2.
 
-![Image](imageName.png)
+![Image](lab2_2.png)
 Screenshot 2: Adding "How are you"
 
 Methods Called: A GET request is made to /add-message?s=Hi.
