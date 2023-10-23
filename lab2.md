@@ -66,6 +66,13 @@ num is 2.
 Change in Relevant Fields: After this specific request, messages contain "1. Hello\n 2. Hi\n" and num is incremented to 3.
 
 Part2
+
 ![Image](lab2_2_1.png)
 ![Image](lab2_2_2.png)
 ![Image](lab2_2_3.png)
+
+Part3
+
+In lab week2,3, I learned more deeply about connecting to a remote computer from my local computer. Also, I did not know how a query was used before these two weeks and now I have an idea about how these are used in practical coding.
+Another thing that is related to remote computers is having and saving authorized keys in my computer and remote computer and using them to save passwords to shorten the time to log into remote computers. 
+Also, I learned other different commands such as mkdir for more purpose of making directories, copying files, and more skills related to terminal commands.
