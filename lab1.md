@@ -89,7 +89,7 @@ public class Hello {
   }
 }
 ```
-- It was working in /lecture1 directory before the command was written and after executing the code, it stayed in /lecture1 directory.
+- It was working in home/lecture1 directory before the command was written and after executing the code, it stayed in home/lecture1 directory.
 - One of usage of the cat command is for printing files, so it printed out the code written in Hello.java.
 - This is not an error.
 
