@@ -67,8 +67,13 @@ Change in Relevant Fields: After this specific request, messages contain "1. Hel
 
 Part2
 
+The path to the private key for your SSH key for logging into ieng6 (on your computer or on the home directory of the lab computer)
 ![Image](lab2_2_1.png)
+
+The path to the public key for your SSH key for logging into ieng6 (within your account on ieng6)
 ![Image](lab2_2_2.png)
+
+A terminal interaction where you log into ieng6 with your course-specific account without being asked for a password.
 ![Image](lab2_2_3.png)
 
 Part3
