@@ -65,3 +65,7 @@ messages contain "1. Hello\n".
 num is 2.
 Change in Relevant Fields: After this specific request, messages contain "1. Hello\n 2. Hi\n" and num is incremented to 3.
 
+Part2
+![Image](lab2_2_1.png)
+![Image](lab2_2_2.png)
+![Image](lab2_2_3.png)
