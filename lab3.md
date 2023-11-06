@@ -38,8 +38,8 @@ static void reverseInPlace(int[] arr) {
 
 The symptom, as the output of running the tests
 
-picture1
-picture2
+![Image](lab3_1_1.png)
+![Image](lab3_1_2.png)
 
 The bug, as the before-and-after code change required to fix it
 
@@ -74,49 +74,49 @@ I chose grep and command example.
 ```
 grep -i flights ./technical/911report/chapter-1.txt
 ```
-picture3
+![Image](lab3_2_1.png)
 
 -i (ignore-case): Ignores case distinctions in patterns and input data. This searches for word flights that is in the file and show output.
 ```
 grep -i chapter ./technical/911report/
 ```
-picture4
+![Image](lab3_2_2.png)
 -i (ignore-case): Ignores case distinctions in patterns and input data. This is used in directory not file so it shows that given is directory.
 
 ```
 grep -w flights ./technical/911report/chapter-1.txt
 ```
-picture5
+![Image](lab3_2_3.png)
 -w (word-regexp): Finds the exact matching word from the input file or string.
 
 ```
 grep -w chapter ./technical/911report/
 ```
-picture6
+![Image](lab3_2_4.png)
 -w (word-regexp): Finds the exact matching word from the input file or string. Returns that it is directory.
 
 ```
 grep -v we ./technical/911report/chapter-1.txt
 ```
-pic7
+![Image](lab3_2_5.png)
 -v (invert-match): Selects the non-matching lines of the provided input pattern​.
 
 ```
 grep -v chapter ./technical/911report/
 ```
-pic8
+![Image](lab3_2_6.png)
 -v (invert-match): Selects the non-matching lines of the provided input pattern​. Returns that it is directory.
 
 ```
 grep -n flights ./technical/911report/chapter-1.txt
 ```
-pic 9
+![Image](lab3_2_7.png)
 -n (line-number): Prefix each line of the matching output with the line number in the input file.
 
 ```
 grep -n chapter ./technical/911report/  
 ```
-pic10
+![Image](lab3_2_8.png)
 -n (line-number): Prefix each line of the matching output with the line number in the input file.  Returns that it is directory.
 
 
