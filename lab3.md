@@ -119,7 +119,8 @@ grep -n chapter ./technical/911report/
 ![Image](lab3_2_8.png)
 -n (line-number): Prefix each line of the matching output with the line number in the input file.  Returns that it is directory.
 
-
+Works Cited
+https://www.freecodecamp.org/news/grep-command-in-linux-usage-options-and-syntax-examples/
 
 
 
