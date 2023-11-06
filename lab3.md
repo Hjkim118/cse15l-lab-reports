@@ -64,11 +64,11 @@ After
   }
 ```
 
-This is because for the before code it keeps does not swap the elements, it basically just saves the arr[arr.length - i - 1] to arr[i] without returning arr[i] value to arr[arr.length - i - 1].
+This is because the before code it keeps does not swap the elements, it saves the arr[arr.length - i - 1] to arr[i] without returning arr[i] value to arr[arr.length - i - 1].
 So, if we save arr[arr.length - i - 1] value to temp and return it to arr[i], the problems will be solved.
 
 Part 2
-I chose grep and command example.
+I chose grep and command examples.
 
 1. '-i' command
 ```
