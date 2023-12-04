@@ -252,9 +252,10 @@ public class TestListExamples {
 ```
 ```
 for lib folder:
-git clone https://github.com/ucsd-cse15l-f23/lab3/lib
+git clone https://github.com/ucsd-cse15l-f23/lab3
+use only lib folder from this clone.
 ```
-It is given file so I cannot write contents.
+It is a given jar file so I cannot write contents.
 
 <ins>Commands I ran:</ins>
 ```
@@ -275,7 +276,7 @@ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnit
 
 Part 2
 
-Through out the second half of the quarter, I have learned about bash script and many debug errors that I have encountered due to working on wrong directory. 
-I have learned that to access specific files, I have to be in correct and exact direcotries to not have debug errors.
-Also, I have thought of github to be hard to use especially forking and cloning, but now I am familiar with this, and can use freely in my other works now.
+Throughout the second half of the quarter, I have learned about bash script and many debug errors that I have encountered due to working on wrong directory. 
+I have learned that to access specific files, I have to be in correct and exact directories to not have debug errors.
+Also, I have thought of GitHub to be hard to use, especially forking and cloning, but now I am familiar with this, and can use freely in my other works now.
 
