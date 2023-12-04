@@ -47,7 +47,9 @@ Then I pressed <esc> to finish editing and pressed :wq! to exit with saved chang
 
 
 '<up>' 3 '<enter>' 
+```
 up 3 <enter>
+```
 
 
 ![Image](lab4_5.png)
