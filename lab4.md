@@ -46,7 +46,7 @@ Pressed j 43times to go down until the line that had error and l to go right to 
 Then I pressed <esc> to finish editing and pressed :wq! to exit with saved changes.
 
 ```
-up 3 <enter> 
+'<up>' 3 '<enter>' 
 up 3 <enter>
 ```
 
