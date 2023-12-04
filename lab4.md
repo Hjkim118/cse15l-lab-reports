@@ -45,10 +45,10 @@ j*43 l*11 x i 2 <esc> :wq! <enter>
 Pressed j 43times to go down until the line that had error and l to go right to sepcify the place i want to fix. Pressed x for deleting 1, and pressed i and 2 to insert 2 in that place.
 Then I pressed <esc> to finish editing and pressed :wq! to exit with saved changes.
 
-```
+
 '<up>' 3 '<enter>' 
 up 3 <enter>
-```
+
 
 ![Image](lab4_5.png)
 
