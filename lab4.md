@@ -55,16 +55,19 @@ Then I pressed `<esc>` to finish editing and pressed `<:wq!>` to exit with saved
 
 
 
-`<up>` 3 `<enter>`
-```
-up 3 <enter>
-```
-
+`<up>` `<up>` `<up>` `<enter>`
+`<up>` `<up>` `<up>` `<enter>` 
 
 ![Image](lab4_5.png)
 
-Pressed up-arrow 3 times to find history of code which I typed javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
-Pressed up-arrow 3 times again to find java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
+Pressed `<up>` 3 times to find history of code which I typed 
+```
+javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
+```
+Pressed `<up>` 3 times again to find 
+```
+java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
+```
 
 ```
 git add ListExamples.java
