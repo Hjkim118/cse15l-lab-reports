@@ -45,7 +45,7 @@ This command was for accessing ListExamples.java file to see the code and edit i
 
 `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` 
 `<right>` `<right>` `<right>` `<right>` `<right>` `<right>` `<right>` `<right>` `<right>` `<right>` `<right>` 
-`<x>` `<i>` `<2>` `<esc>` `<:wq!>` 
+`<x>` `<i>` `2` `<esc>` `<:wq!>` 
 `<enter>`
 
 Pressed `<j>` 43 times to go down until the line that had an error and `<l>` to go right to sepcify the place I want to fix. Pressed `<x>` for deleting 1, and pressed `<i>` and `<2>` to insert 2 in that place.
