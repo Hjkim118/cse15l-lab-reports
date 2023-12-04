@@ -43,13 +43,12 @@ vim ListExamples.java
 
 This command was for accessing ListExamples.java file to see the code and edit if there is wrong lines.
 
-```
-j*43 l*11 x i 2 <esc> :wq! <enter>
-```
-`<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>` `<j>`
-`<l>` `<l>` `<l>` `<l>` `<l>` `<l>` `<l>` `<l>` `<l>` `<l>` `<l>` `<x>` `<i>` `<2>` `<esc>` `<:wq!>` `<enter>`
+`<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` 
+`<right>` `<right>` `<right>` `<right>` `<right>` `<right>` `<right>` `<right>` `<right>` `<right>` `<right>` 
+`<x>` `<i>` `<2>` `<esc>` `<:wq!>` 
+`<enter>`
 
-Pressed `<j>` 43times to go down until the line that had error and `<l>` to go right to sepcify the place I want to fix. Pressed `<x>` for deleting 1, and pressed `<i>` and `<2>` to insert 2 in that place.
+Pressed `<j>` 43 times to go down until the line that had an error and `<l>` to go right to sepcify the place I want to fix. Pressed `<x>` for deleting 1, and pressed `<i>` and `<2>` to insert 2 in that place.
 Then I pressed `<esc>` to finish editing and pressed `<:wq!>` to exit with saved changes.
 
 
