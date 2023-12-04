@@ -76,6 +76,6 @@ git commit -m "Add ListExamples.java"
 ```
 
 ![Image](lab4_6.png)
-![Image](lab4_l.png)
+![Image](lab4_ll.png)
 
 Added changed ListExamples.java to git.
