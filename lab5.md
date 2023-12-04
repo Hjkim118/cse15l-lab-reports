@@ -250,9 +250,10 @@ public class TestListExamples {
   }
 }
 ```
-
+```
 for lib folder:
-git clone from https://github.com/ucsd-cse15l-f23/lab3/lib
+git clone https://github.com/ucsd-cse15l-f23/lab3/lib
+```
 It is given file so I cannot write contents.
 
 <ins>Commands I ran:</ins>
