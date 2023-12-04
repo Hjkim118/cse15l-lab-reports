@@ -65,10 +65,6 @@ then
 fi
 
 cd /Users/hojoon/Desktop/list-examples-grader
-
-# Draw a picture/take notes on the directory structure that's set up after
-# getting to this point
-
 cp student-submission/ListExamples.java ./grading-area
 cp /Users/hojoon/Desktop/list-examples-grader/TestListExamples.java ./grading-area
 cp -r /Users/hojoon/Desktop/list-examples-grader/lib ./grading-area
@@ -81,9 +77,6 @@ java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUn
 if [ $? -ne 0 ]; then
     echo "Fail"
 fi
-
-# Then, add here code to compile and run, and do any post-processing of the
-# tests
 
 <ins>GradeServer.java</ins>
 import java.io.BufferedReader;
