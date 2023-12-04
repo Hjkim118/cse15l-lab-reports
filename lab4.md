@@ -72,6 +72,7 @@ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnit
 
 ```
 git add ListExamples.java
+git commit -m "Add ListExamples.java"
 ```
 
 ![Image](lab4_6.png)
