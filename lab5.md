@@ -6,7 +6,7 @@ Dear TA,
 
 Hello, I'm trying to run my Java program using a bash script, but it's not working as expected. I've attached a screenshot of the error message I'm getting in the terminal.
 
-[screenshot]
+![Image](lab5_1.png)
 
 I used the code given in week 4 for junit but it shows the error that org.junit does not exist. 
 Could you please help me figure out what's going wrong?
@@ -31,7 +31,7 @@ Thanks!
 
 Hi,
 I have figured out that I was running given code for windows while I am using MAC right now. It works totally fine right now.
-[screenshot]
+![Image](lab5_2.png)
 Thank you!
 
 Files and Directory sturcutres
