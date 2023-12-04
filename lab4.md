@@ -45,11 +45,11 @@ This command was for accessing ListExamples.java file to see the code and edit i
 
 `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` 
 `<right>` `<right>` `<right>` `<right>` `<right>` `<right>` `<right>` `<right>` `<right>` `<right>` `<right>` 
-`<x>` `<i>` `2` `<esc>` `<:wq!>` 
+`x` `i` `2` `<esc>` `:wq!` 
 `<enter>`
 
-Pressed `<j>` 43 times to go down until the line that had an error and `<l>` to go right to sepcify the place I want to fix. Pressed `<x>` for deleting 1, and pressed `<i>` and `<2>` to insert 2 in that place.
-Then I pressed `<esc>` to finish editing and pressed `<:wq!>` to exit with saved changes.
+Pressed `<down>` 43 times to go down until the line that had an error and `<right>` to go right to sepcify the place I want to fix. Pressed `x` to delete 1, and pressed `i` and `2` to insert 2 in that place.
+Then I pressed `<esc>` to finish editing and pressed `:wq!` to exit with saved changes.
 
 
 
@@ -63,6 +63,7 @@ Pressed `<up>` 3 times to find history of code which I typed
 ```
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 ```
+
 Pressed `<up>` 3 times again to find 
 ```
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
