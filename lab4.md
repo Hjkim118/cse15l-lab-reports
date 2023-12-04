@@ -41,7 +41,9 @@ vim ListExamples.java
 ```
 `<enter>`
 
-This command was for accessing ListExamples.java file to see the code and edit if there is wrong lines.
+This command was for accessing ListExamples.java file to see the code and edit if there are wrong lines.
+
+Keys pressed:
 
 `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` 
 `<right>` `<right>` `<right>` `<right>` `<right>` `<right>` `<right>` `<right>` `<right>` `<right>` `<right>` 
@@ -51,8 +53,7 @@ This command was for accessing ListExamples.java file to see the code and edit i
 Pressed `<down>` 43 times to go down until the line that had an error and `<right>` to go right to sepcify the place I want to fix. Pressed `x` to delete 1, and pressed `i` and `2` to insert 2 in that place.
 Then I pressed `<esc>` to finish editing and pressed `:wq!` to exit with saved changes.
 
-
-
+Keys Pressed:
 
 `<up>` `<up>` `<up>` `<enter>`
 `<up>` `<up>` `<up>` `<enter>` 
