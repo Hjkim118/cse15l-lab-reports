@@ -7,9 +7,9 @@ ssh cs15lfa23ar@ieng6.ucsd.edu <enter>
 This command made me access to remote computer
 
 ```
-git clone https://github.com/Hjkim118/lab7 <enter>
+git clone https://github.com/Hjkim118/lab7
 ```
-
+`<enter>`
 ![Image](lab4_2.png)
 
 This command made me able to clone https://github.com/Hjkim118/lab7 into remote computer
@@ -47,8 +47,9 @@ Then I pressed <esc> to finish editing and pressed :wq! to exit with saved chang
 
 
 
-```
+
 `<up>` 3 `<enter>`
+```
 up 3 <enter>
 ```
 
