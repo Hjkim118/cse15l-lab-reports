@@ -7,9 +7,8 @@ ssh cs15lfa23ar@ieng6.ucsd.edu <enter>
 This command made me access to remote computer
 
 ```
-git clone https://github.com/Hjkim118/lab7
+git clone https://github.com/Hjkim118/lab7 `<enter>`
 ```
-`<enter>`
 ![Image](lab4_2.png)
 
 This command made me able to clone https://github.com/Hjkim118/lab7 into remote computer
