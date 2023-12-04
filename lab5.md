@@ -46,6 +46,7 @@ lib(folder)
 Before Fixing bugs
 
 <ins>grade.sh</ins>
+```
 CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
 
 rm -rf student-submission
@@ -77,8 +78,9 @@ java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUn
 if [ $? -ne 0 ]; then
     echo "Fail"
 fi
-
+```
 <ins>GradeServer.java</ins>
+```
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -167,12 +169,11 @@ class ExecExamples {
     System.out.println(ExecHelpers.exec(cmd3));
   }
 }
+```
 
 <ins>Server.java</ins>
-// A simple web server using Java's built-in HttpServer
 
-// Examples from https://dzone.com/articles/simple-http-server-in-java were useful references
-
+```
 import java.io.IOException;
 import java.io.OutputStream;
 import java.net.InetSocketAddress;
@@ -222,8 +223,10 @@ public class Server {
         System.out.println("Server Started! Visit http://localhost:" + port + " to visit.");
     }
 }
+```
 
 <ins>TestListExamples.java</ins>
+```
 import static org.junit.Assert.*;
 import org.junit.*;
 import java.util.Arrays;
@@ -245,22 +248,28 @@ public class TestListExamples {
     assertEquals(expected, merged);
   }
 }
+```
 
 for lib folder:
 git clone from https://github.com/ucsd-cse15l-f23/lab3/lib
 It is given file so I cannot write contents.
 
 <ins>Commands I ran:</ins>
+```
 bash grade.sh
-
+```
 <ins>What to fix</ins>
 From:
+```
 javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java
 java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore TestListExamples.java
+```
 
 change to:
+```
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples
+```
 
 Part 2
 
