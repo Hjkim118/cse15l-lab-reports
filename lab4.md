@@ -46,7 +46,7 @@ This command was for accessing ListExamples.java file to see the code and edit i
 ```
 j*43 l*11 x i 2 <esc> :wq! <enter>
 ```
-`<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>`
+`<j>` `<j>` `<j>` `<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>``<j>`
 `<i>``<i>``<i>``<i>``<i>``<i>``<i>``<i>``<i>``<i>``<i>``<2>``<esc>``<:wq!>``<enter>`
 
 Pressed j 43times to go down until the line that had error and l to go right to sepcify the place i want to fix. Pressed x for deleting 1, and pressed i and 2 to insert 2 in that place.
