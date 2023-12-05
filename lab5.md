@@ -6,7 +6,7 @@ Dear TA,
 
 Hello, I'm trying to run my Java program using a bash script, but it's not working as expected. I've attached a screenshot of the error message I'm getting in the terminal.
 
-![Image](lab5_1.png)
+![Image](lab5_1_e.png)
 
 I used the code given in week 4 for junit but it shows the error that org.junit does not exist. 
 I am expecting to see the result that shows that tests are passed.
