@@ -30,11 +30,11 @@ Thanks!
 <ins>Responese from Student:</ins>
 
 Hi,
-I have figured out that I was running given code for windows while I am using MAC right now. It works totally fine right now.
+I have figured out that I was running the given code for Windows while I am using MAC right now. It works fine right now.
 ![Image](lab5_2.png)
 Thank you!
 
-Files and Directory sturcutres
+Files and Directory structures
 grade.sh
 GradeServer.java
 Server.java
@@ -276,9 +276,6 @@ junit-4.13.2.jar
 </dependency>
 ```
 
-
-It is a given jar file so I cannot write contents.
-
 <ins>Commands I ran:</ins>
 ```
 bash grade.sh
@@ -287,7 +284,7 @@ bash grade.sh
 From:
 ```
 javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java
-java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore TestListExamples.java
+java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore TestListExamples
 ```
 
 change to:
@@ -295,10 +292,13 @@ change to:
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples
 ```
+The initial code works for Windows users but it shows an error if it is running in MAC. If we change to the latter code above, it works for MAC but not Windows. In this case, the student is running in a MAC environment, where the latter code lines are needed to run the tests.
+
+This error can be easily seen if the student is working in different environments for the same project. So this could be always considered when working on the same project on different OS such as Windows and MAC.
 
 Part 2
 
-Throughout the second half of the quarter, I have learned about bash script and many debug errors that I have encountered due to working on wrong directory. 
-I have learned that to access specific files, I have to be in correct and exact directories to not have debug errors.
-Also, I have thought of GitHub to be hard to use, especially forking and cloning, but now I am familiar with this, and can use freely in my other works now.
+Throughout the second half of the quarter, I have learned about bash script and many debug errors that I have encountered due to working on the wrong directory. 
+I have learned that to access specific files, I have to be in the correct and exact directories not to have to debug errors.
+Also, I have thought of GitHub to be hard to use, especially forking and cloning, but now I am familiar with this and can use it freely in my other works.
 
