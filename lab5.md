@@ -23,15 +23,16 @@ Looking through your code, there is no error and it seems that there is some err
 Here are some suggestions:
 1. Please look over the code that has junit carefully. There might have been a typo.
 2. Look if the code matches you system. In week 4, we have given the two versions, one for windows and the other for mac. See if you have correct code lines in the code.
+3. Look if the lib folder is copied into currently working directory.
 
-Please look through these two, and let me know if there are other problems.
+Please look through these three ways, and let me know if there are other problems.
 
 Thanks!
 
 <ins>Responese from Student:</ins>
 
 Hi,
-I have figured out that I was running the given code for Windows while I am using MAC right now. It works fine right now.
+I have figured out that I was running the given code for Windows while I am using MAC right now. It works fine right now. The other solutions were already fixed or had no problems so I have solved the problem!
 ![Image](lab5_3.png)
 Thank you!
 
