@@ -32,7 +32,7 @@ Thanks!
 
 Hi,
 I have figured out that I was running the given code for Windows while I am using MAC right now. It works fine right now.
-![Image](lab5_2.png)
+![Image](lab5_3.png)
 Thank you!
 
 
