@@ -39,13 +39,14 @@ Thank you!
 
 Files and Directory structures
 
-- grade.sh
-- GradeServer.java
-- Server.java
-- TestListExamples.java
-- lib(folder)
-  - hamcrest-core-1.3.jar
-  - junit-4.13.2.jar
+- week9
+  - grade.sh
+  - GradeServer.java
+  - Server.java
+  - TestListExamples.java
+  - lib(folder)
+    - hamcrest-core-1.3.jar
+    - junit-4.13.2.jar
 
 
 Before Fixing bugs
