@@ -250,11 +250,33 @@ public class TestListExamples {
   }
 }
 ```
-```
+
 for lib folder:
-git clone https://github.com/ucsd-cse15l-f23/lab3
-use only lib folder from this clone.
+
+hamcrest-core-1.3.jar
 ```
+
+<!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest-core -->
+<dependency>
+    <groupId>org.hamcrest</groupId>
+    <artifactId>hamcrest-core</artifactId>
+    <version>1.3</version>
+    <scope>test</scope>
+</dependency>
+```
+
+junit-4.13.2.jar
+```
+<!-- https://mvnrepository.com/artifact/junit/junit -->
+<dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.13.2</version>
+    <scope>test</scope>
+</dependency>
+```
+
+
 It is a given jar file so I cannot write contents.
 
 <ins>Commands I ran:</ins>
