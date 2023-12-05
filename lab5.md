@@ -9,6 +9,7 @@ Hello, I'm trying to run my Java program using a bash script, but it's not worki
 ![Image](lab5_1.png)
 
 I used the code given in week 4 for junit but it shows the error that org.junit does not exist. 
+I am expecting to see the result that shows that tests are passed.
 Could you please help me figure out what's going wrong?
 
 Thank you.
@@ -21,7 +22,7 @@ Looking through your code, there is no error and it seems that there is some err
 
 Here are some suggestions:
 1. Please look over the code that has junit carefully. There might have been a typo.
-2. Look if the code matches you system. In week 4, we have given the two versions, one for window and mac. See if you have correct code lines in the code.
+2. Look if the code matches you system. In week 4, we have given the two versions, one for windows and the other for mac. See if you have correct code lines in the code.
 
 Please look through these two, and let me know if there are other problems.
 
@@ -34,7 +35,9 @@ I have figured out that I was running the given code for Windows while I am usin
 ![Image](Lab5_3.png)
 Thank you!
 
+
 Files and Directory structures
+
 grade.sh
 GradeServer.java
 Server.java
@@ -42,6 +45,7 @@ TestListExamples.java
 lib(folder)
  - hamcrest-core-1.3.jar
  - junit-4.13.2.jar
+
 
 Before Fixing bugs
 
@@ -273,11 +277,14 @@ for lib folder:
 </dependency>
 ```
 
-<ins>Commands I ran:</ins>
+
+Commands I ran:
 ```
 bash grade.sh
 ```
-<ins>What to fix</ins>
+
+
+What to fix
 From:
 ```
 javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java
@@ -292,6 +299,7 @@ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnit
 The initial code works for Windows users but it shows an error if it is running in MAC. If we change to the latter code above, it works for MAC but not Windows. In this case, the student is running in a MAC environment, where the latter code lines are needed to run the tests.
 
 This error can be easily seen if the student is working in different environments for the same project. So this could be always considered when working on the same project on different OS such as Windows and MAC.
+
 
 Part 2
 
