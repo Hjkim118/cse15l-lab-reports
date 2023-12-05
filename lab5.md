@@ -253,10 +253,8 @@ public class TestListExamples {
 
 for lib folder:
 
-hamcrest-core-1.3.jar
+<ins>hamcrest-core-1.3.jar</ins>
 ```
-
-<!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest-core -->
 <dependency>
     <groupId>org.hamcrest</groupId>
     <artifactId>hamcrest-core</artifactId>
@@ -265,9 +263,8 @@ hamcrest-core-1.3.jar
 </dependency>
 ```
 
-junit-4.13.2.jar
+<ins>junit-4.13.2.jar</ins>
 ```
-<!-- https://mvnrepository.com/artifact/junit/junit -->
 <dependency>
     <groupId>junit</groupId>
     <artifactId>junit</artifactId>
