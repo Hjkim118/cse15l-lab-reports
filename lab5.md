@@ -52,7 +52,7 @@ Before Fixing bugs
 <ins>grade.sh</ins>
 
 ```
-CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
+CPATH='.:../lib/hamcrest-core-1.3.jar:../lib/junit-4.13.2.jar'
 
 rm -rf student-submission
 rm -rf grading-area
@@ -62,23 +62,19 @@ mkdir grading-area
 git clone https://github.com/ucsd-cse15l-f22/list-methods-corrected student-submission
 echo 'Finished cloning'
 
-cd /Users/hojoon/Desktop/list-examples-grader/student-submission
 
-if [[ ! -f "ListExamples.java" ]]
-then
-    echo "No file submitted"
-    exit
+if [[ ! -f student-submission/ListExamples.java ]]
+then echo "Missing File"
+    exit 1
 fi
 
-cd /Users/hojoon/Desktop/list-examples-grader
-cp student-submission/ListExamples.java ./grading-area
-cp /Users/hojoon/Desktop/list-examples-grader/TestListExamples.java ./grading-area
+cp student-submission/ListExamples.java grading-area/
+cp TestListExamples.java grading-area/
 cp -r /Users/hojoon/Desktop/list-examples-grader/lib ./grading-area
+cd grading-area
 
-cd /Users/hojoon/Desktop/list-examples-grader/grading-area
-
-javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java
-java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore TestListExamples
+javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
+java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples
 
 if [ $? -ne 0 ]; then
     echo "Fail"
